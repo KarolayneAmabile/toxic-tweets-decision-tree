@@ -1,0 +1,19 @@
+Projeto 2 - Classificação
+▪Escolha um dataset para a tarefa de classificação particular do seu interesse ou publicamente disponível. Busque uma
+base que tenha ao menos duas mil instâncias e no mínimo 5 classes. Importante que tenha texto não estruturados (e
+opcionalmente valores estruturados). Separe os dados com 20% para teste, 20% para validação e 60% para treino.
+▪Necessário aplicar a estratégia de TF-IDF sobre os dados não estruturados
+▪ Faça um estudo introdutório sobre a base de dados:
+▪Aplique os modelos de Logistic Regression com Gradient Descent (não precisa implementar esse) e Árvore de Decisão:
+implemente o algoritmo de árvores de decisão, tanto os módulos de treino como predição.
+▪Faça análise de consistência treinando dois algoritmos LR-GD e AD. Criando três modelo com 30%, 60% e 90% da parte
+que foi definida como treino, 60% do todo.
+▪Monte 5 gráficos de curva de aprendizado:
+▪considerando: treino e validação para LR-GD sem regularização, com regularização Ridge, Lasso e Elastic Net. Faça
+também uma curva de aprendizado para uma AD, considerando que a cada variação em X seja o aumento da árvore,
+até alcancar a altura limite.
+▪ Avalie os resultados no teste com precision, recall, micro e macro F1 para todos casos dos gráficos mostrados.
+▪ Selecione tês modelos mais significativos e mostre as matrizes de confusão para entender melhor os acertos e erros;
+▪Deverá ser entregue:
+◦um relatório com: introdução, descrição do projeto, resultados e análises.
+◦Uma apresentação de doze minutos.
